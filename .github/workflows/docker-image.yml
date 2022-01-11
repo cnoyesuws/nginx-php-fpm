@@ -2,9 +2,8 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ php72 ]
-  pull_request:
-    branches: [ php72 ]
+    branches:
+      - php72
 
 jobs:
 
